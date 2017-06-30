@@ -1,0 +1,133 @@
+.tab2-bg {
+	width: 100%;
+	height: 86px;
+	background: #E5E5E5;
+}
+.tab2-bg ul {
+	list-style: none;
+	width: 1000px;
+	height: 86px;
+	line-height: 86px;
+	text-align: left;
+}
+.tab2-bg ul li {
+	float: left;
+	width: 250px;
+	text-align: left;
+	cursor: pointer;
+	font-size: 16px;
+	color: #333333;
+}
+.tab2-bg ul li:hover {
+	color: #1A8B14;
+}
+.product-info {
+	width: 1200px;
+	padding: 40px;
+	float: left;
+	position: relative;
+	left: 50%;
+	margin-left: -600px;
+}
+.product-info img {
+	float: left;
+	margin-top: 60px;
+	margin-right: 60px;
+	margin-bottom: 40px;
+}
+.title {
+	width: 600px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	text-align: left;
+	font-size: 30px;
+	float: right;
+	color: #585858;
+}
+.info-text {
+	width: 600px;
+	float: right;
+	text-align: left;
+	line-height: 34px;
+	font-size: 14px;
+	color: #666666;
+}
+.price {
+	color: #F13A3A;
+	font-size: 30px;
+}
+.info-text span:nth-child(1){
+	display: block;
+	width: 120px;
+	float: left;
+	text-align: right;
+}
+.info-text span:nth-child(2){
+	display: block;
+	width: 480px;
+	float: left;
+	text-align: left;
+}
+.share-box {
+	width: 100%;
+	float: left;
+	text-align: left;
+	line-height: 30px;
+	color: #666666;
+}
+.share-box i {
+	font-size: 21px;
+	cursor: pointer;
+}
+.wechat {
+	color: #3FB137;
+}
+.microblog {
+	color: #ff5943;
+}
+.zone {
+	color: #0a97f7;
+}
+.kaixin {
+	color: #ff9600;
+}
+.renren {
+	color: #4a76c0;
+}
+.douban {
+	color: #2d9918;
+}
+.qqblog {
+	color: #0590ce;
+}
+.wangyi {
+	color: #ee262a;
+}
+.tieba {
+	color: #046ecf;
+}
+.buttons {
+	width: 500px;
+	float: left;
+	margin-top: 40px;
+	color: #666666;
+}
+.buttons a {
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-o-border-radius: 15px;
+	border: 1px solid #e9e9e9;
+	cursor: pointer;
+}
+.buttons a:nth-child(1){
+	float: left;
+}
+.buttons a:nth-child(2){
+	float: right;
+}

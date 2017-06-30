@@ -1,0 +1,69 @@
+.tab2-bg {
+	width: 100%;
+	height: 86px;
+	background: #E5E5E5;
+}
+.tab2-bg ul {
+	list-style: none;
+	width: 1000px;
+	height: 86px;
+	line-height: 86px;
+	text-align: left;
+}
+.tab2-bg ul li {
+	float: left;
+	width: 250px;
+	text-align: left;
+	cursor: pointer;
+	color: #333333;
+	font-size: 16px;
+}
+.tab2-bg ul li:hover {
+	color: #1A8B14;
+}
+.productlist {
+	width: 100%;
+	float: left;
+}
+.productlist ul {
+	width: 1200px;
+	float: left;
+	list-style: none;
+	position: relative;
+	left: 50%;
+	margin-left: -600px;
+	margin-top: 30px;
+}
+.productlist ul li {
+	width: 370px;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+}
+.product-img {
+	width: 370px;
+	cursor: pointer;
+}
+.product-name {
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	color: #474646;
+}
+.product-price {
+	width: 100%;
+	text-align: center;
+	line-height: 30px;
+	color: #ff0000;
+}
+.more {
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #5DBA98;
+	cursor: pointer;
+	border: 1px solid #5DBA98;
+}

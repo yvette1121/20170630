@@ -1,0 +1,154 @@
+
+.swiper-container {
+	width: 100%;
+	height: 680px;
+}
+.swiper-wrapper {
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.swiper-slide img {
+	width: 100%;
+	height: 100%;
+}
+.product-feature {
+	width: 100%;
+	height: 175px;
+	background: #856550;
+	color: #FFFFFF;
+	position: relative;
+	float: left;
+}
+.product-feature p {
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	top: 40px;
+	font-size: 30px;
+}
+.product-feature span {
+	display: block;
+	width: 600px;
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	top: 100px;
+	text-align: left;
+}
+#more {
+	position: absolute;
+	right: 50%;
+	margin-right: -600px;
+	width: 200px;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 48px;
+	height: 48px;
+	border: 1px solid #FFFFFF;
+	top: 62px;
+	cursor: pointer;
+}
+.product1 {
+	width: 1200px;
+	margin-top: 205px;
+}
+.list-title {
+	width: 100%;
+	padding-top: 30px;
+	text-align: center;
+  	font-size: 24px;
+  	color: rgb(0, 0, 0);
+  	text-transform: uppercase;
+  	margin-bottom: 30px;
+}
+.swiper-button-prev {
+	position: absolute;
+	width: 44px;
+	left: 50%;
+	top: 1310px;
+	margin-left: -640px;
+	background-image: url(../img/left.png);
+	background-size: 44px 44px;
+}
+.swiper-button-next {
+	position: absolute;
+	width: 44px;
+	right: 50%;
+	top: 1310px;
+	margin-right: -640px;
+	background-image: url(../img/right.png);
+	background-size: 44px 44px;
+}
+.swiper-slide p {
+	line-height: 60px;
+}
+.product2 {
+	width: 1200px;
+}
+.photobox {
+	width: 1200px;
+	height: 380px;
+	margin-top: 20px;
+}
+.photobox img {
+	float: left;
+	width: 285px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.photobox img:nth-child(1){
+	margin-left: 0;
+}
+.product3 {
+	width: 1200px;
+	height: 791px;
+	background: url(../img/bg1.png) no-repeat;
+	position: relative;
+	padding-bottom: 40px;
+}
+.border {
+	width: 300px;
+	height: 60px;
+	border: 5px solid #F2F2F2;
+	float: left;
+	margin-left: 150px;
+}
+.name {
+	font-family: simhei;
+	font-size: 50px;
+	float: left;
+	margin-top: 120px;
+	text-align: left;
+	margin-left: -380px;
+	font-weight: bold;
+}
+.introduce {
+	width: 550px;
+	float: left;
+	margin-top: 350px;
+	text-align: left;
+	line-height: 30px;
+	margin-left: -380px;
+}
+.line {
+	width: 100px;
+	height: 4px;
+	background: #F13A3A;
+	position: relative;
+	float: left;
+	margin-top: 700px;
+	margin-left: -550px;
+}
+.banner1 {
+	background: url(../img/banner1.png) no-repeat;
+	background-position: center;
+}
+.banner2 {
+	background: url(../img/banner2.png) no-repeat;
+	background-position: center;
+}

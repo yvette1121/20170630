@@ -1,0 +1,116 @@
+.tab2-bg {
+	width: 100%;
+	height: 86px;
+	background: #E5E5E5;
+}
+.tab2-bg ul {
+	list-style: none;
+	width: 1000px;
+	height: 86px;
+	line-height: 86px;
+	text-align: left;
+}
+.tab2-bg ul li {
+	float: left;
+	width: 270px;
+	text-align: left;
+	cursor: pointer;
+	color: #333333;
+	font-size: 16px;
+}
+.tab2-bg ul li:hover {
+	color: #1A8B14;
+}
+.photo-box {
+	width: 1200px;
+	margin-top: 30px;
+	text-align: left;
+	padding-bottom: 100px;
+}
+.photo-box img {
+	width: 585px;
+	height: 385px;
+}
+.photo-box img:nth-child(1){
+	margin-right: 20px;
+}
+.content-box {
+	width: 1200px;
+	text-align: left;
+	color: #666666;
+	line-height: 30px;
+}
+.content-box .title {
+	font-size: 30px;
+	color: #333333;
+	line-height: 50px;
+}
+.border {
+	width: 1200px;
+	height: 4px;
+	margin-top: 50px;
+}
+.line-red {
+	width: 100px;
+	height: 4px;
+	background: #F13A3A;
+	float: left;
+}
+.content-box .content {
+	width: 1200px;
+	text-align: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.content-box .content:nth-child(1){
+	margin-top: 104px;
+}
+.knowMore {
+	display: block;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+	background: #F13A3A;
+	color: #FFFFFF;
+	text-decoration: none;
+	position: relative;
+	left: -520px;
+	margin-bottom: 100px;
+}
+.content-box ul {
+	width: 100px;
+	padding-top: 20px;
+	border-left: 1px solid #C4C4C4;
+	position: relative;
+	left: -500px;
+	list-style: none;
+	padding-bottom: 20px;
+}
+.content-box ul li{
+	width: 100px;
+	white-space: nowrap;
+	line-height: 60px;
+}
+.circle {
+	color: #C4C4C4;
+	font-size: 30px;
+	margin-left: -15px;
+	position: relative;
+	top: 5px;
+}
+.circle1 {
+	color: #C4C4C4;
+	font-size: 30px;
+	margin-left: 35px;
+	position: relative;
+	top: -15px;
+}
+.content-box img {
+	float: right;
+	margin-top: -400px;
+}

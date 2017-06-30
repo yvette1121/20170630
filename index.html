@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<link rel="stylesheet" href="css/swiper.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/commontop.js" ></script>
+		<script type="text/javascript" src="js/swiper3.4.2.js" ></script>
+	</head>
+	<body>
+		<div class="bg-all">
+			<div id="commonTop"></div>
+			
+			<div class="swiper-container" id="swiper1">
+			  	<div class="swiper-wrapper">
+				    <div class="swiper-slide banner1">
+				    </div>
+				    <div class="swiper-slide banner2">
+				    </div>
+				</div>
+			</div>
+			<div class="product-feature">
+				<p>o'plants的产品特点</p>
+				<span>100%纯天然、活机，不含任何有害人体的化学成分（保证产品的安全性）oplants产品中所使用的草本植物绝大部分来自JANCE在南澳阿德莱德亲手修建的植物农场。</span>
+				<a id="more">了解详情</a>
+			</div>
+			<div class="product1">
+				<p class="list-title">TOP 10 <br />全球热卖的产品</p>
+				<div class="swiper-container" id="swiper2" style="width: 1200px;height: 420px;">
+				  	<div class="swiper-wrapper">
+					    <div class="swiper-slide" style="width: 300px;height: 420px;text-align: center;">
+					    	<p>①</p>
+					    	<img src="img/1.png" style="width: 270px;height: 270px;" />
+					    	<p>大马士革玫瑰纯露</p>
+					    </div>
+					    <div class="swiper-slide" style="width: 300px;height: 420px;text-align: center;">
+					    	<p>②</p>
+					    	<img src="img/2.png" style="width: 270px;height: 270px;" />
+					    	<p>罗马洋甘菊纯露</p>
+					    </div>
+					    <div class="swiper-slide" style="width: 300px;height: 420px;text-align: center;">
+					    	<p>③</p>
+					    	<img src="img/3.png" style="width: 270px;height: 270px;" />
+					    	<p>薰衣草精油</p>
+					    </div>
+					    <div class="swiper-slide" style="width: 300px;height: 420px;text-align: center;">
+					    	<p>④</p>
+					    	<img src="img/4.png" style="width: 270px;height: 270px;" />
+					    	<p>茶树精油</p>
+					    </div>
+					    <div class="swiper-slide" style="width: 300px;height: 420px;text-align: center;">
+					    	<p>⑤</p>
+					    	<img src="img/1.png" style="width: 270px;height: 270px;" />
+					    	<p>大马士革玫瑰纯露</p>
+					    </div>
+					    <div class="swiper-slide" style="width: 300px;height: 420px;text-align: center;">
+					    	<p>⑥</p>
+					    	<img src="img/2.png" style="width: 270px;height: 270px;" />
+					    	<p>大马士革玫瑰纯露</p>
+					    </div>
+					    <div class="swiper-slide" style="width: 300px;height: 420px;text-align: center;">
+					    	<p>⑦</p>
+					    	<img src="img/3.png" style="width: 270px;height: 270px;" />
+					    	<p>大马士革玫瑰纯露</p>
+					    </div>
+					    <div class="swiper-slide" style="width: 300px;height: 420px;text-align: center;">
+					    	<p>⑧</p>
+					    	<img src="img/4.png" style="width: 270px;height: 270px;" />
+					    	<p>大马士革玫瑰纯露</p>
+					    </div>
+					</div>
+				</div>
+				<div class="swiper-button-prev"></div>
+    			<div class="swiper-button-next"></div>
+			</div>
+			<div class="product2">
+				<p class="list-title">产品类目<br />o'plants明星家族</p>
+				<div class="photobox">
+					<img src="img/product1.png" />
+					<img src="img/product2.png" />
+					<img src="img/product3.png" />
+					<img src="img/product4.png" />
+				</div>
+				<div class="photobox">
+					<img src="img/product5.png" />
+					<img src="img/product6.png" />
+					<img src="img/product7.png" />
+					<img src="img/product8.png" />
+				</div>
+			</div>
+			<div class="product3" style="margin-top: 100px;">
+				<div class="border"></div>
+				<p class="name"><span style="color: #62A440;">WE ARE</span><br />O'PLANTS</p>
+				<p class="introduce">
+					三十年养肤之道·o'plants（澳柏兰姿）<br />
+					<i class="iconfont">&#xe7b0;</i>
+					澳洲活体精油第一品牌<br />
+					<i class="iconfont">&#xe7b0;</i>
+					精油品类最齐全的品牌<br />
+					始创于1981年的澳洲花园城市-阿德莱德；基于创始人Dr.Janice Smith博士最初的愿景：让客户使用上最安全、最健康、最纯净的植物精油，用天然呵护我们的每一寸肌肤；我们采取全产业链的模式，从4个方面深入研发产品功效，严格把控产品质量，坚持三十余年从未松懈和动摇半分，这才铸造了今天o'plants的品质和荣誉。
+				</p>
+				<p class="line"></p>
+			</div>
+			<div class="bottom" id="bottom">
+			</div>
+		</div>
+		<script> 
+			$(document).ready(function(){
+				var mySwiper = new Swiper('#swiper1',{
+				   	loop: true,
+				   	autoplay: 2000,
+				   	pagination : '.pagination',
+				   	paginationClickable :true,
+				   	preventClicks : false,
+				   	noSwiping : true,
+				   	autoplayDisableOnInteraction : false,
+				});
+				var mySwiper = new Swiper('#swiper2',{
+				   	loop: true,
+				   	autoplay: 2000,
+				   	slidesPerView:4,
+				   	pagination : '.pagination',
+				   	paginationClickable :true,
+				   	preventClicks : false,
+				   	noSwiping : true,
+				   	autoplayDisableOnInteraction : false,
+				   	prevButton:'.swiper-button-prev',
+					nextButton:'.swiper-button-next',
+				});
+				$("#tabList a:nth-child(1) li").css('background','#4AB344')
+			})
+			
+		</script>
+	</body>
+</html>
